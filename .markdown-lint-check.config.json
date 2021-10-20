@@ -1,0 +1,12 @@
+
+   
+{
+    "ignorePatterns": [
+      {
+        "pattern": ".*github\\.com/woolgens\\-network.*"
+      },
+      {
+        "pattern": "^https://woolgens.net.*"
+      }
+    ]
+}
