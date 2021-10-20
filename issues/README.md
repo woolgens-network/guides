@@ -20,12 +20,36 @@ Among other things, it is possible to describe and manage bugs well.
   - [ ] Section task 2
 ```
 
+Example:
+
+
+```
+In this sprint the development environment must be available and the possibility to start directly with the content of the respective project.
+
+Sprint 1:
+  - [ ] Create project scaffold (#1)
+  - [ ] Add necessary dependencies to pom.xml
+  - [ ] ...
+
+```
+
 #### Section
 ```
 ** Description **
 
 ** Tasks **
   - [ ] Task 1
+```
+
+Example:
+
+```
+Create project scaffold with the java version 16.
+
+Tasks:
+  - [ ] Create quarkus project with the given name "example"
+  - [ ] ...
+
 ```
 
 ### Final words
