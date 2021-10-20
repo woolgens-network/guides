@@ -1,0 +1,30 @@
+kind: pipeline
+name: default
+
+steps:
+    - name: install
+      image: node:16.9.1
+      commands:
+          - yarn ci
+
+    - name: lint
+      image: node:16.9.1
+      depends_on: [install]
+      commands:
+          - yarn lint
+
+    - name: test
+      image: node:16.9.1
+      depends_on: [install]
+      commands:
+          - yarn test
+
+    - name: build-and-typescript-check
+      image: node:16.9.1
+      depends_on: [install]
+      commands:
+        - yarn build
+
+trigger:
+    event:
+        - pull_request
