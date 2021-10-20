@@ -1,5 +1,5 @@
 kind: pipeline
-name: default1
+name: default
 
 steps:
     - name: check-links
