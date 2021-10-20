@@ -24,7 +24,8 @@ Example:
 
 
 ```
-In this sprint the development environment must be available and the possibility to start directly with the content of the respective project.
+In this sprint the development environment must be available and 
+the possibility to start directly with the content of the respective project.
 
 Sprint 1:
   - [ ] Create project scaffold (#1)
