@@ -6,7 +6,7 @@ steps:
       image: node:14-alpine
       commands:
           - npm i -g markdown-link-check
-          - find . -name \*.md -not -path "./node_modules/*" | xargs -n1 markdown-link-check --config .markdown-lint-check.config.json
+          - find . -name \*.md -not -path "./node_modules/*" | xargs -n1 markdown-link-check
 
 trigger:
     event:

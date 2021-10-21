@@ -1,4 +1,4 @@
-# Woolgens Style Guide
+# Woolgens Java Style Guide
 
 ## Formatting
 
