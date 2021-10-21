@@ -1,5 +1,11 @@
 kind: pipeline
-name: frontend
+name: lint-test-build
+
+trigger:
+    event:
+        - pull_request
+    branch:
+        - master
 
 steps:
     - name: install
@@ -25,10 +31,6 @@ steps:
       commands:
         - yarn build
 
-trigger:
-    event:
-        - pull_request
-
 ---
 kind: pipeline
 name: build-publish-deploy
@@ -37,7 +39,7 @@ trigger:
   event:
     - push
   branch:
-    - main
+    - master
 
 steps:
     - name: install
