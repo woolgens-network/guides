@@ -100,7 +100,7 @@ After finishing my feature I will then push the branch to the origin and create 
 pull request section of the corisponding repository. There you can then reference any issues that might be linked and give a brief overview of what you did.
 
 Once you create the pull request our pipeline will run, testing your code. Once the pipeline finished you can then get a code review from one of our
-Senior developers. They may ask you to change some things about your code and once they are happy our feature will be merged into the master branch. 
+Senior developers. They may ask you to change some things about your code and once they are happy your feature will be merged into the master branch. 
 
 <a name="issues"></a>
 # Github Issues
