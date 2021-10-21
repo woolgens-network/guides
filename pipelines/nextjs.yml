@@ -1,11 +1,17 @@
 kind: pipeline
-name: default
+name: lint-test-build
+
+trigger:
+    event:
+        - pull_request
+    branch:
+        - master
 
 steps:
     - name: install
       image: node:16.9.1
       commands:
-          - yarn ci
+          - yarn install
 
     - name: lint
       image: node:16.9.1
@@ -25,6 +31,37 @@ steps:
       commands:
         - yarn build
 
+---
+kind: pipeline
+name: build-publish-deploy
+
 trigger:
-    event:
-        - pull_request
+  event:
+    - push
+  branch:
+    - master
+
+steps:
+    - name: install
+      image: node:16.9.1
+      commands:
+          - yarn install
+
+    - name: lint
+      image: node:16.9.1
+      depends_on: [install]
+      commands:
+          - yarn lint
+
+    - name: test
+      image: node:16.9.1
+      depends_on: [install]
+      commands:
+          - yarn test
+
+    - name: build-and-typescript-check
+      image: node:16.9.1
+      depends_on: [install]
+      commands:
+        - yarn build
+        
