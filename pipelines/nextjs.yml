@@ -1,11 +1,11 @@
 kind: pipeline
-name: default
+name: frontend
 
 steps:
     - name: install
       image: node:16.9.1
       commands:
-          - yarn ci
+          - yarn install
 
     - name: lint
       image: node:16.9.1
@@ -28,3 +28,38 @@ steps:
 trigger:
     event:
         - pull_request
+
+---
+kind: pipeline
+name: build-publish-deploy
+
+trigger:
+  event:
+    - push
+  branch:
+    - main
+
+steps:
+    - name: install
+      image: node:16.9.1
+      commands:
+          - yarn install
+
+    - name: lint
+      image: node:16.9.1
+      depends_on: [install]
+      commands:
+          - yarn lint
+
+    - name: test
+      image: node:16.9.1
+      depends_on: [install]
+      commands:
+          - yarn test
+
+    - name: build-and-typescript-check
+      image: node:16.9.1
+      depends_on: [install]
+      commands:
+        - yarn build
+        
