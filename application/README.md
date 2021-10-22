@@ -2,6 +2,8 @@
 
 Hello and welcome to the Woolgens developer application guide! We are happy that you are interested in joining our team. In order to streamline our applications we have decided to create a simple but effective application process. This guide will give you an overview of this process as well as tips on where and how to begin. 
 
+_Before we begin, please note: You do not need to be an expert in all areas we list. We are always happy to accept new developers, who are lacking experience. We belive we have enough experienced developers who will help new developers grow and learn more._
+
 **Table of contents:**
 
 1. [ Application process ](#process)
@@ -9,7 +11,7 @@ Hello and welcome to the Woolgens developer application guide! We are happy that
     - [ Game Developer ](#game)
     - [ Backend Developer ](#backend)
     - [ Web Developer ](#web)
-3. Conclusion
+3. [ Conclusion ](#conclusion)
 
 <a name="process"></a>
 # The Application process
@@ -50,11 +52,47 @@ Once your technical interview is completed you will get your feedback within a f
 <a name="requirements"></a>
 # Requirements
 
+- **Simple** knowledge of Github _(You do not need to be an expert, however we use Github for everything)_
+- Good communication skills
+- Knowledge of English or German
+- Ability to work independently or in a team
+
 <a name="game"></a>
-## Game developer application
+### Game developer
+- Java
+- Spigot & Bungeecord
+- Object-oriented programming
+- Ability to solve logical questions
+- Good problem solving skils _(As you will also be working on designing new game modes)_
+- Basic knowledge of Game design
+
+As a game developer you will be in charge of developing new gamemodes and plugins. This is a very important part of our team, as you will be updating and keeping our server fresh and fun for the players!
 
 <a name="backend"></a>
-## Backend developer application
+### Backend developer
+- _Everything from Game developer_
+- Micro-services
+- Concurrency
+- Networking
+- Databases _(MongoDB, Redis)_
+
+This is the harder of our two developer jobs. As a Backend developer you will not directly be involved in making new gamemodes, but will be working on maintaing and updating our network infrastructure. This includes maintainging our cloud as well as any api or in house libraries.
 
 <a name="web"></a>
-## Web developer application
+### Web developer
+- Javascript framework (React, Vue or Angular), however we will be working with React.
+- TailwindCSS
+- Basic knowledge of UI/UX Design
+- CSS and HTML
+- Tebex _(optional)_
+
+_You do not need to be skilled in all these areas. For example: if you are a tebex developer and do not know Javascript framework, you can still apply for a developer position._
+
+As a web-developer you will be working on updating and maintaing our web infrastructure. This includes our Homepage, but also Staff interfaces and online API integrations. Aside from developing stable web applications we also need to ensure they are appealing and look good, as these often represent who Woolgens is.  
+
+<a name="conclusion"></a>
+# Conclusion
+
+Thank you for your intreset in the Woolgens development team! We would be happy to recieve your application and always look foward to meeting new developers. Please try to not be scared by our application process, it is a lot easier and relaxed then it may seem. 
+
+~ The Woolgens Development Team
