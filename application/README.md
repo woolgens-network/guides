@@ -1,20 +1,38 @@
 # Woolgens Developer Application guide
 
+Hello and welcome to the Woolgens developer application guide! We are happy that you are interested in joining our team. In order to streamline our applications we have decided to create a simple but effective application process. This guide will give you an overview of this process as well as tips on where and how to begin. 
+
 **Table of contents:**
 
-1. [ Welcome ](#welcome)
-2. [ Application process ](#process)
-3. [ Requirements ](#requirements)
+1. [ Application process ](#process)
+2. [ Requirements ](#requirements)
     - [ Game Developer ](#game)
     - [ Backend Developer ](#backend)
     - [ Web Developer ](#web)
-4. Conclusion
-
-<a name="welcome"></a>
-# Welcome
+3. Conclusion
 
 <a name="process"></a>
 # The Application process
+
+The application process will start on our [Discord](https://discord.gg/woolgens). Under the section `Woolgens team` you will find a channel called `apply-for-developer`. Inside of the channel you will find a button which will let you create a new application. The applications should follow this format:
+
+```
+Name: YOURNAME
+Age: YOURAGE
+Github: LINKTOYOURGITHUB
+Languages: LISTOFYOURLAMGUAGES
+Years of experience: YEARSOFEXPERIENCE
+
+Why do you want to join the team?
+SHORT TEXT ABOUT WHY YOU WANT TO JOIN WOOLGENS
+```
+
+The application should be very short, as we belive that writing long texts for developer applications is simply _a waste of time_. We will get to know you and your coding style through the coding challenge. We will not make any kind of decison based on your answers in the application. Every developer will be able to complete the coding challenges.
+
+Once we recieve your application a Senior-Developer will answer on the ticket. As long as we belive that the ticket is not meant to troll us we will continue with the application process. 
+
+The Senior-Developer will ask you the complete the [`coding-challenge`](https://github.com/woolgens-network/coding-challenge). This coding challenge will be hosted via Github, which is why we require you to have or create a Github profile. 
+
 
 1. Application on discord -> Ticket gets created
     - Name
