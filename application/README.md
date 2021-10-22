@@ -33,19 +33,20 @@ Once we recieve your application a Senior-Developer will answer on the ticket. A
 
 The Senior-Developer will ask you the complete the [`coding-challenge`](https://github.com/woolgens-network/coding-challenge). This coding challenge will be hosted via Github, which is why we require you to have or create a Github profile. 
 
+The [`coding-challenge`](https://github.com/woolgens-network/coding-challenge) is a Github template repository meaning, that you can clone the repository with the button on the top right of the repository page.
 
-1. Application on discord -> Ticket gets created
-    - Name
-    - Age
-    - How long have you been programming?
-    - What languages do you know?
-    - Why do you want to join the team?
-3. They revcieve a welcome message from a Senior-Developer with the link to our coding challenge. They will then have three days to complete the coding challenege. 
-4. Once they complete their coding challenge they must push it to git and add the account `ReaperMaga`. They will then request a Code review in their Ticket (with the link).
-5. Once the senior-developer completes the code review the applicant will recieve some feedback on their code (in github) as well as either an invitation to a technical interview or their application will be denied. 
-6. In the technical interview the senior-developer and the applicant will have a short 30 minute talk in which they both get to know each other and bot get to ask some questions. The senior-developer will also ask some questions about the applicants coding expierence and will determine in the call if the applicant is ready to join the developer team. 
-7. After the call the senior-developer will announce their decision.
- 
+![FvPoAN9](https://user-images.githubusercontent.com/30908158/138423911-062d810d-4a52-4148-aa20-434922bbbe25.png)
+
+Once you click on `Use as template` you will be promted to clone the repository to your account. Call the repository `woolgens-coding-challenge`. Please commit all of your changes into your repository.
+
+Once you complete the coding challenge please set the repository visability to **Public** ([How to](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility)). Once you have done this notify your Senior-Developer of your completion of the coding challenge in your inital ticket. Please do not forget to send the link to your repository!
+
+The Senior-Developer will then complete a code review. This may take a few days depending on their workload, however we will aim to always finish it within three days. If you have **NOT** recieved an answer after three days, please send a quick message in your ticket and ask for the current status. Do not ask about your status prior, to the three days. 
+
+Once the code review is completed to Senior-Developer may invite you to a "technical interview". This may sound scary, but don't stress 😆. This conversation is mainly going to be a "get to know" talk where you will also be able to ask questions about Woolgens and how we develop software. This will also be the last step in the application process. 
+
+Once your technical interview is completed you will get your feedback within a few hours. If all goes well you will then be worked into our team and begin working very soon!
+
 <a name="requirements"></a>
 # Requirements
 
