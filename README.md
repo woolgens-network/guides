@@ -31,6 +31,7 @@ Example: `jumpandrun-plugin`
 
 ## Java specific conventions
 Please set your _groupId_ to `net.woolgens` and **NOT** your personal _groupId_.
+For mono projects use `net.woolgens.{context}`, replace `{context}` with your mono project name.
 
 _Remember: The code you develop for woolgens is not your own. It belong to the network and therefore it should be named accordingly._
 
