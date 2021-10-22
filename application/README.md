@@ -63,7 +63,7 @@ Once your technical interview is completed you will get your feedback within a f
 - Spigot & Bungeecord
 - Object-oriented programming
 - Ability to solve logical questions
-- Good problem solving skils _(As you will also be working on designing new game modes)_
+- Good problem solving skills _(As you will also be working on designing new game modes)_
 - Basic knowledge of Game design
 
 As a game developer you will be in charge of developing new gamemodes and plugins. This is a very important part of our team, as you will be updating and keeping our server fresh and fun for the players!
@@ -88,7 +88,7 @@ This is the harder of our two developer jobs. As a Backend developer you will no
 
 _You do not need to be skilled in all these areas. For example: if you are a tebex developer and do not know Javascript framework, you can still apply for a developer position._
 
-As a web-developer you will be working on updating and maintaing our web infrastructure. This includes our Homepage, but also Staff interfaces and online API integrations. Aside from developing stable web applications we also need to ensure they are appealing and look good, as these often represent who Woolgens is.  
+As a web-developer you will be working on updating and maintaing our web infrastructure. This includes our Homepage, but also Staff interfaces and online API integrations. Aside from developing stable web applications we also need to ensure they are appealing, as these often represent what Woolgens is.  
 
 <a name="conclusion"></a>
 # Conclusion
