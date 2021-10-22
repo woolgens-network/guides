@@ -41,7 +41,7 @@ The [`coding-challenge`](https://github.com/woolgens-network/coding-challenge) i
 
 Once you click on `Use as template` you will be promted to clone the repository to your account. Call the repository `woolgens-coding-challenge`. Please commit all of your changes into your repository.
 
-Once you complete the coding challenge please set the repository visability to **Public** ([How to](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility)). Once you have done this notify your Senior-Developer of your completion of the coding challenge in your inital ticket. Please do not forget to send the link to your repository!
+Once you complete the coding challenge please set the repository visability to [**Public**](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/managing-repository-settings/setting-repository-visibility). Once you have done this notify your Senior-Developer of your completion of the coding challenge in your inital ticket. Please do not forget to send the link to your repository!
 
 The Senior-Developer will then complete a code review. This may take a few days depending on their workload, however we will aim to always finish it within three days. If you have **NOT** recieved an answer after three days, please send a quick message in your ticket and ask for the current status. Do not ask about your status prior, to the three days. 
 
