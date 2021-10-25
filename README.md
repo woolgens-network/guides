@@ -34,6 +34,12 @@ Example: `jumpandrun-plugin`
 Please set your _groupId_ to `net.woolgens` and **NOT** your personal _groupId_.
 For mono projects use `net.woolgens.{context}`, replace `{context}` with your mono project name.
 
+If the project is a Minecraft plugin please use the following format in ONLY the plugin.yml: `Woolgens-{name}`. 
+Do **NOT** hang `-plugin` on it. 
+
+This is to ensure that players will see that we use our own Plugins. `Woolgens-Gens` seems more custom then `Gens-Plugin`. However the internal and repository name will continue following the format of `-Plugin`
+Do **NOT** hang `-plugin` on it
+
 _Remember: The code you develop for woolgens is not your own. It belong to the network and therefore it should be named accordingly._
 
 <a name="version"></a>
