@@ -7,7 +7,8 @@
 4. [ Tests ](#test)
 3. [ Pull requests ](#pull)
 4. [ Github Issues ](#issues)
-5. [ Application ](#application)
+5. [ Deployment ](#deployment)
+6. [ Application ](#application)
 
 
 <a name="naming"></a>
@@ -170,6 +171,18 @@ Tasks:
 Try to use the github issue function more often to create TODO lists as an example.
 
 Write down your concepts there as well.
+
+<a name="deployment"></a>
+# Deployment
+Our general development pipeline looks as follow:
+- An idea is generate and designed by our adminstrator or game designer team
+- The idea will be described and added to our Kanban board. [Kanban boards](https://github.com/woolgens-network/management)
+- The lead developer will assign the plugins to the development team (Developers can request certain features if they want)
+- The developers will ask for a new repository to work on **BEFORE** begining their project. A repository can be requested with the lead developer
+- Every card has its own due date. The Plugin **MUST** be finished by this time, otherwise the plugin will not be able to be uploaded. If you don't think you can finish your assignment on time, its no issue, however you must inform the lead developer as quickly as possible. We will then reassign the project.
+- The developer will develop their plugin in their repository after our PR guidelines. In this process the developer will also ask for reviews from our lead developer. 
+- Once the plugin is finished the developer must test and have their plugin tested by one other developer or administrator. The developer can then close the issue on the managment board. 
+- The plugin will then be marked as ready for deployment. We assume that at this point the plugin is tested and ready!
 
 <a name="application"></a>
 # Application
