@@ -176,7 +176,7 @@ Write down your concepts there as well.
 # Deployment
 Our general development pipeline looks as follow:
 - An idea is generate and designed by our adminstrator or game designer team
-- The idea will be described and added to our Kanban board. [Kanban boards](https://github.com/woolgens-network/management)
+- The idea will be described and added to our Kanban board.
 - The lead developer will assign the plugins to the development team (Developers can request certain features if they want)
 - The developers will ask for a new repository to work on **BEFORE** begining their project. A repository can be requested with the lead developer
 - Every card has its own due date. The Plugin **MUST** be finished by this time, otherwise the plugin will not be able to be uploaded. If you don't think you can finish your assignment on time, its no issue, however you must inform the lead developer as quickly as possible. We will then reassign the project.
