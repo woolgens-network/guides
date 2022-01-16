@@ -54,6 +54,12 @@ Given a version number `MAJOR.MINOR.PATCH`, increment the:
 - `MINOR` version when you add functionality in a backwards compatible manner, and
 - `PATCH` version when you make backwards compatible bug fixes.
 
+We will also use a modified version of `MAJOR.MINOR.PATCH` for server updates
+
+- `MAJOR` version when we release a new season (this number will match the season number),
+- `MINOR` version when you add a feature during a season,
+- `PATCH` version when introduce a bug fix.
+
 <a name="test"></a>
 # Tests
 
@@ -90,9 +96,7 @@ More information about Test-driven development:
 
 ## Drone.io
 
-In order to configure our pipeline every repository will have a `.drone.yml` file, in which the pipelines are written. If you are starting a new repo you can find
-a few example drone pipelines under [`woolgens-network/guides/pipelines`](https://github.com/woolgens-network/guides/tree/master/pipelines). 
-
+In order to configure our pipeline every repository will have a `.drone.yml` file, in which the pipelines are written.
 More information about [Drone](https://readme.drone.io/)
 
 <a name="pull"></a>
