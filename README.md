@@ -103,7 +103,7 @@ More information about [Drone](https://readme.drone.io/)
 # Pull requests
 
 In order to write and maintain clean code we use a pipeline that automatically checks your code for errors before getting merged into our `master` branch.
-This is done with a platform called [Drone](https://www.drone.io/). Our drone instance can be found under https://drone.woolgens.net. You can register and login
+This is done with a platform called [Drone](https://www.drone.io/). Our drone instance can be found under https://drone.prismar.in. You can register and login
 via your GitHub account, after joining our organisation. You will then have permissions to view all builds.
 
 Every developer will be programming on a branch other then the `master`. For example, I want to create a new feature allowing users to execute the command "/food"
